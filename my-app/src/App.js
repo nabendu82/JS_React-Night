@@ -1,5 +1,5 @@
 import './App.css';
-import EventBind from './components/EventBind';
+import PersonList from './components/PersonList';
 // import Counter from './components/Counter';
 // import { Greet, Hello } from './components/Greet';
 // import Greeting from './components/Greeting';
@@ -18,7 +18,7 @@ function App() {
       <Welcome name="React Native" />
       <Welcome name="Java"><button>Click</button></Welcome> */}
       {/* <Counter /> */}
-      <EventBind />
+      <PersonList />
     </div>
   );
 }
